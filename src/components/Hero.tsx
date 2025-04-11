@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import React, { useEffect, useRef } from 'react';
 import { ArrowRight, Check } from 'lucide-react';
 
@@ -55,11 +56,17 @@ const Hero = () => {
             <a href="#contact" className="rhinovate-btn-primary group">
               Schedule a Demo
               <ArrowRight className="inline ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
-            </a>
-            <a href="#how-it-works" className="rhinovate-btn-secondary">
-              See How It Works
-            </a>
-          </div>
+              </a>
+
+              <Link to="/demo" className="rhinovate-btn-secondary">
+               See How It Works
+              </Link>
+             </div>
+
+
+
+
+              
           
           <div className="mt-10 flex flex-wrap justify-center gap-x-8 gap-y-4 text-sm leading-6 text-gray-600">
             <div className="flex items-center">
