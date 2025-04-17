@@ -96,7 +96,22 @@ const Index = () => {
           </div>
         </div>
       </section>
-      
+
+      {/* ROI Button Section */}
+<section className="py-16 bg-gradient-to-r from-white to-slate-50 text-center">
+  <div className="max-w-xl mx-auto px-6">
+    <h3 className="text-2xl md:text-3xl font-bold text-gray-900 mb-4">Curious what Rhinovate could do for your clinic?</h3>
+    <p className="text-gray-600 mb-6 text-lg">
+      Use our ROI calculator to estimate how much more revenue and savings you could be generating each month.
+    </p>
+    <a href="/roi-calculator">
+      <button className="bg-black text-white px-8 py-3 rounded-full text-lg shadow-lg hover:bg-gray-800 transition-all duration-200">
+        Estimate ROI with Rhinovate
+      </button>
+    </a>
+  </div>
+</section>
+
       <CallToAction />
       <Footer />
     </div>
